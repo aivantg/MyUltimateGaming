@@ -1,0 +1,12 @@
+{
+  "name": "MyUltimateGaming",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "light-server": "^2.6.4"
+  },
+  "scripts": {
+    "start": "light-server -s public -p $PORT --no-reload"
+  }
+}
